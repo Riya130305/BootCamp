@@ -12,7 +12,7 @@ public class Prims_algo {
         {
             adj.add(new ArrayList<>());
         }
-        
+        // edge
         for(int[] edg:edges)
         {
             int parent=edg[0];

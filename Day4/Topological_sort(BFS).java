@@ -22,7 +22,7 @@ public class Topological_sort(BFS) {
             adj.get(u).add(v);
             inDegree[v]++;
         }
-        //Adding 0 first indegree element to queue
+        //Adding first 0 indegree element to queue
         Queue<Integer>q=new LinkedList<>();
         for(int i=0;i<V;i++)
         {
