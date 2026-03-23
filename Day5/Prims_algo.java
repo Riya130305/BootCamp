@@ -5,7 +5,7 @@ public class Prims_algo {
         // code here
         
         //Adjacency list
-        // node,wt
+        
         ArrayList<ArrayList<int[]>> adj = new ArrayList<>();
         
         for(int i=0;i<V;i++)
